@@ -1,9 +1,13 @@
 import React from 'react'
 import './MainDash.css'
+import Cards from '../Cards/Cards'
 
 const MainDash = () => {
   return (
-    <div>MainDash</div>
+    <div className='MainDash'>
+        <h1>Dashboard</h1>
+        <Cards/>
+    </div>
   )
 }
 
