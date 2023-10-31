@@ -1,0 +1,7 @@
+.SideDash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 95%;
+}
