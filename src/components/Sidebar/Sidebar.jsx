@@ -2,13 +2,25 @@ import React, { useState } from 'react'
 import './sidebar.css'
 import Logo from '../../imgs/logo.png'
 import { SidebarData } from '../../Data/Data'
-import {UilSignOutAlt} from "@iconscout/react-unicons"
+import {UilSignOutAlt, UilBars, UilTimes} from "@iconscout/react-unicons"
 
 const Sidebar = () => {
 
     const [selected, setSelected] = useState(0)
+
+    const [menu, setMenu] = useState(false)
+
+    const toggleMenu = () => {
+        setMenu(!menu)
+    }
   return (
-    <div className='Sidebar'>
+    <>
+    {/* menu bar */}
+    <div className="menuBar" >
+        <UilBars onClick={toggleMenu}/>
+        <UilTimes className='close' />
+    </div>
+    <div className={`Sidebar ${toggleMenu}`}>
         {/* logo */}
         <div className="logo">
             <img src={Logo} alt="shop-logo" />
@@ -36,6 +48,7 @@ const Sidebar = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
