@@ -4,3 +4,11 @@
     height: auto;
     border-radius: 0.7rem;
 }
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .CustomerReview{
+        width: 95%;
+    }
+    
+}

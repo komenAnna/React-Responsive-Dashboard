@@ -23,4 +23,11 @@
     color: #6366f1 !important;
     font-weight: bold;
 }
-  
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .Table {
+        position: relative;
+        width: 18rem;
+    }
+}

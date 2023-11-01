@@ -3,3 +3,10 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .MainDash{
+        align-items: center;
+    }
+}

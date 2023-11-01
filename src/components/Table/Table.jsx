@@ -43,7 +43,7 @@ const makeStatus = (status)=>{
 
 export default function BasicTable() {
   return (
-    <div className="table">
+    <div className="Table">
       <h3>Recent Orders</h3>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">

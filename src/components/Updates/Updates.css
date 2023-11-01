@@ -21,3 +21,11 @@
     font-weight: bold;
 
 }
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .Updates{
+        width: 80%;
+    }
+    
+}

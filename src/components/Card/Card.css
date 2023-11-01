@@ -87,3 +87,13 @@
 .chartContainer {
     width: 70%;
 }
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .ExpandedCard{
+        top: 8rem;
+        left: 25px;
+        height: 50%;
+        width: 80%;
+    }
+}

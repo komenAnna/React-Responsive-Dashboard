@@ -5,3 +5,11 @@
 .parentContainer {
     width: 100%;
 }
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .Cards{
+        width: 90%;
+        flex-direction: column;
+    }
+}
